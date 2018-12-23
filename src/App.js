@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from './Components/footer';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Learn React
+            <Footer></Footer>
           </a>
         </header>
       </div>
