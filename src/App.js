@@ -1,15 +1,8 @@
 import React, { Component } from 'react';
 import Image from 'react-image-resizer';
+import './App.css';
+import Footer from './Components/footer';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <Header/>
-      </div>
-    );
-  }
-}
 
 class Header extends React.Component {
    render() {
